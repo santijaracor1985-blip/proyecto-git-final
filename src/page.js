@@ -9,10 +9,6 @@ export function agregarItem(texto) {
   const li = document.createElement("li");
   li.textContent = texto;
   lista.appendChild(li);
-
-
-
-
 }
 
 document.getElementById("btn")?.addEventListener("click", () => {

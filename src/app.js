@@ -9,6 +9,12 @@ export function agregarItem(texto) {
   lista.appendChild(li);
 }
 
-document.getElementById("btn")?.addEventListener("click", () => {
-  agregarItem("Nuevo ítem");
-});
+// Este código SOLO debe ejecutarse en navegador, no en Node
+if (typeof document !== "undefined") {
+  const btn = document.getElementById("btn");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      agregarItem("Nuevo ítem");
+    });
+  }
+}

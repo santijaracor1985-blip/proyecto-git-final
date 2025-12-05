@@ -1,5 +1,6 @@
 import { suma } from "../src/app.js";
+import { test, strict as assert } from "node:test";
 
 test("La función suma debe sumar correctamente", () => {
-  expect(suma(2, 3)).toBe(6);
+  assert.equal(suma(2, 3), 5);
 });

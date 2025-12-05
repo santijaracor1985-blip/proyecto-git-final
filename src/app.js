@@ -9,7 +9,7 @@ export function agregarItem(texto) {
   lista.appendChild(li);
 }
 
-// Este código SOLO debe ejecutarse en navegador, no en Node
+// Este código SOLO corre en navegador, no en Node ni en GitHub Actions
 if (typeof document !== "undefined") {
   const btn = document.getElementById("btn");
   if (btn) {

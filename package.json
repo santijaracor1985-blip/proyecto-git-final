@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-git-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santijaracor1985-blip/proyecto-git-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santijaracor1985-blip/proyecto-git-final/issues"
+  },
+  "homepage": "https://github.com/santijaracor1985-blip/proyecto-git-final#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
+}
